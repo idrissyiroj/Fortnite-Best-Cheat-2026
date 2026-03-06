@@ -7,29 +7,32 @@ This project demonstrates how an in-game menu system can be structured with modu
 
 ## ✨ Features
 
-* 🧩 Modular menu system
-* 🎨 Custom UI layout
-* ⚡ Fast and lightweight framework
-* 🔧 Easily extendable modules
-* 🖥️ Clean overlay interface
-* 🧪 Designed for experimentation and development
-
+* 🧩 **Fortnite Aimbot**: Smooth aiming with customizable FOV, bone targeting (head, body), and prediction for moving targets. Undetected against Epic's anti-cheat.
+* 🎨 **Fortnite Wallhack**: See enemies through walls with color-coded outlines (red for enemies, blue for teammates).
+* ⚡ **Fortnite ESP**: Displays player info like health, distance, weapons, and items in real-time overlays.
+* 🔧 **Fortnite Triggerbot**: Auto-fires when crosshair is on an enemy.
+* 🖥️ **Recoil Control & No-Spread**: Eliminates weapon recoil and bullet spread.
+* 🧪 **Skin Changer & Radar Hack**: Customize character skins and get a mini-map radar for enemy positions.
+* ⚙️ **Bypass Anti-Cheat**: Methods to evade Epic's anti-cheat system (e.g., kernel-level injection).
 ---
 
 ## 📂 Project Structure
 
-```
-fortnite-mod-menu/
-│
-├── src/
-│   ├── menu/
-│   ├── modules/
-│   ├── ui/
-│   └── utils/
-│
-├── assets/
-├── docs/
-└── README.md
+[Aimbot]
+Enabled = true
+FOV = 90
+Smoothness = 5.0
+TargetBone = head
+
+[ESP]
+Enabled = true
+EnemyColor = red
+TeamColor = blue
+MaxDistance = 500
+
+[Wallhack]
+Enabled = true
+GlowIntensity = 2.0
 ```
 
 ---
